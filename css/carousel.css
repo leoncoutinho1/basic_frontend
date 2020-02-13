@@ -1,0 +1,12 @@
+.carousel-container {
+
+}
+
+.carousel-slide {
+  width: 100%;
+  display: flex;
+}
+
+.carousel-slide img {
+  height: 250px;
+}

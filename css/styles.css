@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+.centered {
+    margin: auto;
+    width: 85%;
+}
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    /* background-color: aqua; */
+}
+
+.coluna {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    padding: 0 25px;
+    display: flex;
+    width: 680px;
+    /* background: #a66; */
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.list {
+    flex-direction: row;
+    display: flex;
+    margin: auto 0;
+    padding: 0;
+}
+
+#list-menu {
+    width: 250px;
+    justify-content: space-between;
+}
+
+#login, #signup {
+    width: 160px;
+}
+
+#login li, #signup li {
+    width: 100%;
+}
+
+#btnSignup, #btnLogin {
+    color: #888;
+    border-radius: 25px;
+    border: 2px solid rgb(10, 10, 10);
+    border-color: #8863de;
+    align-items: center;
+    width: 100%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+#btnSignup:hover, #btnLogin:hover {
+    background: #8863de;
+    border-color: #666;
+    color: #fff;
+}
+
+.item-list {
+    display: flex;
+    align-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #888;
+    /* background: #fff; */
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mobile-nav {
+    background: #aaa;
+    display: none;
+}
+
+
+.content {
+    height: 760px;
+    vertical-align: middle;
+}
+
+#c1, #c2,#c3,#c4 {
+    background: #888;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 1000px) {
+    #signup, #login {
+        display: none;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 650px) {
+    #list-menu {
+        display: none;
+    }
+}
+
+
