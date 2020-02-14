@@ -1,0 +1,1 @@
+#### Todas as imagens utilizadas nesse projeto devem ficar nesta pasta e ser listadas no arquivo .gitignore. ###
