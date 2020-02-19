@@ -6,7 +6,7 @@ const modalLogin = document.getElementById('modal-login');
 
 btnLogin.addEventListener('click', () => {
     backLogin.classList.toggle('overlay-visible');
-    modalLogin.classList.toggle('modal-visible') ;
+    modalLogin.classList.toggle('modal-visible');
 });
 
 
@@ -15,7 +15,7 @@ const modalSignUp = document.getElementById('modal-signup');
 
 btnSignup.addEventListener('click', () => {
     backSignup.classList.toggle('overlay-visible');
-    modalSignUp.classList.toggle('modal-visible') ;
+    modalSignUp.classList.toggle('modal-visible');
 });
 
 
