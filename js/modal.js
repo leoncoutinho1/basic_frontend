@@ -4,10 +4,10 @@ const backSignup = document.getElementById('backSignup');
 const btnLogin = document.getElementById('btnLogin');
 const modalLogin = document.getElementById('modal-login');
 
-btnLogin.addEventListener('click', () => {
-    backLogin.classList.toggle('overlay-visible');
-    modalLogin.classList.toggle('modal-visible');
-});
+// //btnLogin.addEventListener('click', () => {
+// backLogin.classList.toggle('overlay-visible');
+// modalLogin.classList.toggle('modal-visible');
+// });
 
 
 const btnSignup = document.getElementById('btnSignup');
